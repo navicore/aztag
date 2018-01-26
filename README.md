@@ -15,6 +15,7 @@ create resource tag commands
 ```console
 bash runme.sh > runme2.sh
 ```
+# step 4
 
 process the final file of commands in parallel
 ```console
