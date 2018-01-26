@@ -1,13 +1,23 @@
 # step 1
 
-list groups with `az-get-groups.sh``
+create prep script with
+```console
+./az-prep-group-tags.sh "mytag1=one mytag2=two > runme.sh"
+```
 
 # step 2
 
-for each group run `az-tag-group.sh GROUP_NAME "mytag1=one mytag2=two"` and run the output commands
+edit `runme.sh` with fine tuned tags!
+
+# step 3
+
+create resource tag commands
+```console
+bash runme.sh > runme2.sh
+```
 
 process the final file of commands in parallel
 ```console
-parallel --jobs 10 < ./runme2.sh
+parallel --jobs 25 < ./runme.sh
 ```
 
