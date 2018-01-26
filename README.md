@@ -19,6 +19,6 @@ bash runme.sh > runme2.sh
 
 process the final file of commands in parallel
 ```console
-parallel --jobs 25 < ./runme.sh
+parallel --jobs 25 < ./runme2.sh
 ```
 
