@@ -2,7 +2,7 @@
 
 create prep script with
 ```console
-./az-prep-group-tags.sh "mytag1=one mytag2=two > runme.sh"
+./az-prep-group-tags.sh "mytag1=one mytag2=two" > runme.sh
 ```
 
 # step 2
