@@ -5,7 +5,7 @@ TAG JUST THE GROUPS
 
 create prep script with
 ```console
-./az-tag-groups.sh "Tags.mytag1=one Tags.mytag2=two" > runme.sh
+./az-tag-groups.sh "tags.mytag1=one tags.mytag2=two" > runme.sh
 ```
 
 ## step 2
