@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/aztag](https://git.navicore.tech/navicore/aztag).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 TAG JUST THE GROUPS
 -----
 
@@ -41,4 +46,3 @@ process the final file of commands in parallel
 ```console
 parallel --jobs 25 < ./runme2.sh
 ```
-
